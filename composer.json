@@ -1,0 +1,24 @@
+{
+    "name": "lightweight/magento2.module.shipping-setup",
+    "description": "Shipping setup module for Lightweight",
+    "type": "magento2-module",
+    "require": {
+        "magento/module-offline-shipping": ">=100.3.0",
+        "magento/module-shipping": ">=100.3.0"
+    },
+    "authors": [
+        {
+            "name": "Axel Bildat",
+            "email": "axel.bildat@7thsense.de",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lightweight\\ShippingSetup\\": ""
+        }
+    }
+}
